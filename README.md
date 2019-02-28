@@ -16,6 +16,6 @@ Below are the files for the BoatBuilder 2.0. Please feel free to edit them and i
 ___/  __)__    |__   |/  /
 __/  __ |_  /| |_  /|_/ / 
 _/  /_//_  ___ |  /  / /  
-/_____/ /_/  |_/_/  /_/   
+/_____/ /_/  |_/_/  /_/   /
                            a wild boat has appeared
 	                                                                 
