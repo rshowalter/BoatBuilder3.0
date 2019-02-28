@@ -13,6 +13,16 @@ class GUI:
         self.type = tkinter.IntVar()
         self.canvas = tkinter.Canvas(root, height=600, width=600, bg='#FFFFFF')
         
+        
+        
+class APIHandler:
+    
+    def __init__(self):
+        pass
+    
+    def get_leaderboard(self):
+        r = requests.get("http://")
+        
     
     
 
