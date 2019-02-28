@@ -16,3 +16,7 @@ How will the data be stored on the server? PHP code to process the data? Python 
 Thoughts:
 Seperate files for leaderboard and differet request for putting in the data into the leaderboard... this also has to be secure...
 
+https://stackoverflow.com/questions/5333762/parse-post-request-from-http-request-body ^^^^^^
+
+
+
