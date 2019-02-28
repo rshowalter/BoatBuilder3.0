@@ -1,6 +1,7 @@
 #Imports Tkinter and a time stopper
 import tkinter
 import time
+import requests
 
 
 #Class test
@@ -12,6 +13,7 @@ class GUI:
         self.material = tkinter.IntVar()
         self.type = tkinter.IntVar()
         self.canvas = tkinter.Canvas(root, height=600, width=600, bg='#FFFFFF')
+        self.API_Handler = APIHandler()
         
         
         
@@ -21,7 +23,15 @@ class APIHandler:
         pass
     
     def get_leaderboard(self):
+        ''''''
         r = requests.get("http://")
+        return r.text
+    
+    def post_data_to_leaderboard(self, leaderboarddata):
+        ''''''
+        pass
+    
+    
         
     
     
