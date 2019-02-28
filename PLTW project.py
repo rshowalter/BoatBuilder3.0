@@ -3,6 +3,19 @@ import tkinter
 import time
 
 
+#Class test
+
+class GUI:
+    
+    def __init__(self):
+        self.root = tkinter.Tk()
+        self.material = tkinter.IntVar()
+        self.type = tkinter.IntVar()
+        self.canvas = tkinter.Canvas(root, height=600, width=600, bg='#FFFFFF')
+        
+    
+    
+
 #Makes a shortcut
 root = tkinter.Tk()
 #Sets up Variables
@@ -29,14 +42,6 @@ def hexstring(slider_intvar):
     slider_intvar is an IntVar between 0 and 255, inclusive
     hexstring() returns a string representing two hexadecimal digits
     '''
-
-def wood():
-    print
-def iron():
-    print
-    
-def steel():
-    print
 
 def Sailboat():
     canvas.delete("all")
