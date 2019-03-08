@@ -1,0 +1,22 @@
+
+Stack overflow post requests:https://stackoverflow.com/questions/11322430/how-to-send-post-request
+
+
+
+
+1. Client requests the leaderboard from the server
+2. Server responds with the leaderboard in JSON form
+3. Python takes the json and turns it into the data to be printed out to the screen
+4. Under certain conditions like exit, the data will be sent to the server and put on the leaderboard...
+
+Questiosn:
+
+How will the data be stored on the server? PHP code to process the data? Python backend?
+
+Thoughts:
+Seperate files for leaderboard and differet request for putting in the data into the leaderboard... this also has to be secure...
+
+https://stackoverflow.com/questions/5333762/parse-post-request-from-http-request-body ^^^^^^
+
+
+
